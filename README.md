@@ -4,6 +4,9 @@
 
 This work aims to systematically evaluate biases across seven social factors using ten LLMs with different prompting methods on eight diverse datasets. We also examine bias mitigation in LLMs by proposing a set of fairness-aware prompts. Our results show that GPT-4 achieves the best overall balance in performance and fairness among LLMs, although it still lags behind domain-specific models like MentalRoBERTa in some cases. Additionally, tailored fair prompts can effectively mitigate bias in mental health applications, highlighting the great potential for fair analysis in this field.
 
+## Pipeline for evaluating and mitigating bias in LLMs
+
+
 ## Models
 
 We divide the models used in our experiments into two major categories. 
@@ -25,6 +28,9 @@ torch == 2.0.1+cu117
 accelerate == 0.30.0
 
 For data preprocessing (cleaning and get enrich demographic information), please see mental_health_sample_data_processing.ipynb.
+
+## Datasets
+
 
 ## Prompts
 The .py files show the zero-shot standard prompting for all settings. For chain-of-thought prompting and fairness-aware prompting methods, please refer to Appendix B of the paper to adjust the .py files for your experiments.
