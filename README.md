@@ -35,6 +35,10 @@ For data preprocessing (cleaning and get enrich demographic information), please
 ## Datasets
 The following table provides an overview of the tasks and datasets in mental health analysis for our experiments.
 
+<div align="center">
+    <img width="90%" alt="image" src="https://github.com/EternityYW/BiasEval-LLM-MentalHealth/blob/main/Image_sources/mental_health_data_overview.png">
+</div>
+
 Source link for each dataset:
 
 DepEmail: N/A (proprietary dataset by Stanford School of Medicine)
