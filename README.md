@@ -7,7 +7,7 @@ This work aims to systematically evaluate biases across seven social factors usi
 ## Pipeline for evaluating and mitigating bias in LLMs
 
 <div align="center">
-    <img width="90%" alt="image" src="https://github.com/EternityYW/BiasEval-LLM-MentalHealth/blob/main/Image_sources/pipeline.pdf">
+    <img width="90%" alt="image" src="https://github.com/EternityYW/BiasEval-LLM-MentalHealth/blob/main/Image_sources/bias_pipeline.png">
 </div>
 
 ## Models
