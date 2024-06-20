@@ -39,6 +39,8 @@ The following table provides an overview of the tasks and datasets in mental hea
     <img width="90%" alt="image" src="https://github.com/EternityYW/BiasEval-LLM-MentalHealth/blob/main/Image_sources/mental_health_data_overview.png">
 </div>
 
+The raw training and testing sets for each publicly available dataset can be found under the "[./Datasets](./Datasets/)" folder (except for SWMH and DepEmail).
+
 Source link for each dataset:
 
 DepEmail: N/A (proprietary dataset by Stanford School of Medicine)
