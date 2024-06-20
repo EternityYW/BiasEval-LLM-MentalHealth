@@ -33,7 +33,25 @@ accelerate == 0.30.0
 For data preprocessing (cleaning and get enrich demographic information), please see mental_health_sample_data_processing.ipynb.
 
 ## Datasets
+The following table provides an overview of the tasks and datasets in mental health analysis for our experiments.
 
+Source link for each dataset:
+
+DepEmail: N/A (proprietary dataset by Stanford School of Medicine)
+
+Dreaddit: https://aclanthology.org/D19-6213.pdf (Page 1 bottom right)
+
+C-SSRS: https://zenodo.org/records/2667859
+
+CAMS: https://github.com/drmuskangarg/CAMS
+
+SWMH: https://huggingface.co/datasets/AIMH/SWMH
+
+IRF: https://github.com/drmuskangarg/Irf
+
+MultiWD: https://github.com/drmuskangarg/MultiWD
+
+SAD: https://github.com/PervasiveWellbeingTech/Stress-Annotated-Dataset-SAD
 
 ## Prompts
 The .py files show the zero-shot standard prompting for all settings. For chain-of-thought prompting and fairness-aware prompting methods, please refer to Appendix B of the paper to adjust the .py files for your experiments.
