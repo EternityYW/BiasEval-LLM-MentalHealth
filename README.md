@@ -45,19 +45,19 @@ Source link for each dataset:
 
 DepEmail: N/A (proprietary dataset by Stanford School of Medicine)
 
-Dreaddit: https://aclanthology.org/D19-6213.pdf (Page 1 bottom right)
+Dreaddit: https://aclanthology.org/D19-6213.pdf (Page 1 bottom right) (Turcan and Mckeown, 2019)
 
-C-SSRS: https://zenodo.org/records/2667859
+C-SSRS: https://zenodo.org/records/2667859 (Gaur et al., 2019)
 
-CAMS: https://github.com/drmuskangarg/CAMS
+CAMS: https://github.com/drmuskangarg/CAMS (Garg et al., 2022)
 
-SWMH: https://huggingface.co/datasets/AIMH/SWMH
+SWMH: https://huggingface.co/datasets/AIMH/SWMH (Ji et al., 2022a)
 
-IRF: https://github.com/drmuskangarg/Irf
+IRF: https://github.com/drmuskangarg/Irf (Garg et al., 2023)
 
-MultiWD: https://github.com/drmuskangarg/MultiWD
+MultiWD: https://github.com/drmuskangarg/MultiWD (Sathvik and Garg, 2023)
 
-SAD: https://github.com/PervasiveWellbeingTech/Stress-Annotated-Dataset-SAD
+SAD: https://github.com/PervasiveWellbeingTech/Stress-Annotated-Dataset-SAD (Mauriello et al., 2021)
 
 ## Prompts
 The .py files show the zero-shot standard prompting for all settings. For chain-of-thought prompting and fairness-aware prompting methods, please refer to Appendix B of the paper to adjust the .py files for your experiments.
