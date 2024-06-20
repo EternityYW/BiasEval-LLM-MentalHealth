@@ -39,7 +39,7 @@ The following table provides an overview of the tasks and datasets in mental hea
     <img width="90%" alt="image" src="https://github.com/EternityYW/BiasEval-LLM-MentalHealth/blob/main/Image_sources/mental_health_data_overview.png">
 </div>
 
-The raw training and testing sets for each publicly available dataset can be found under the "[./Datasets](./Datasets/)" folder (except for SWMH and DepEmail, as the former requires original author approval and the latter is a proprietary dataset).
+The raw training and testing sets for each publicly available dataset can be found under the "[./Datasets](./Datasets/)" folder (except for SWMH and DepEmail, as the former requires original author approval and the latter is a proprietary dataset). The sample demographic-enriched datasets can be found under the "[./Datasets/Sample_data_variations](./Datasets/Sample_data_variations)" subfolder.
 
 Source link for each dataset:
 
