@@ -21,7 +21,7 @@ Llama-3-8B-Instruct (AI@Meta, 2024), and GPT4 (Achiam et al., 2023).
 GPT-4 is accessed through the OpenAI API, while the remaining models are loaded from Hugging Face.
 
 Representative model implementations across eight datasets are in the "[./Models](./Models/)" folder. For models of different sizes, we present an example here (e.g., Gemma-7B vs. Gemma-2B and MentaLlama-7B vs. MentaLlama-13B, as well as Llama2-7B vs. Llama2-13B). All experiments (except GPT-4) use four NVIDIA A100 GPUs.
-Note that for each dataset with each model, we have a single .py file. We are running experiments in parallel to make it more efficient, rather than putting all datasets within a model in one large .py file, which would take a long time to run. Additionally, since each dataset has different tasks in terms of label counts (e.g., binary, multi-class, and multi-label) and objective outcomes, separating them into individual .py files makes it more convenient to manage. Feel free to adapt the code to apply the same model settings to your own dataset. For GPT-4 experiments, sample code for API calls is provided in GPT4_code.ipynb.
+Note that for each dataset with each model, we have a single .py file. We are running experiments in parallel to make it more efficient, rather than putting all datasets within a model in one large .py file, which would take a long time to run. Additionally, since each dataset has different tasks in terms of label counts (e.g., binary, multi-class, and multi-label) and objective outcomes, separating them into individual .py files makes it more convenient to manage. Feel free to adapt the code to apply the same model settings to your own dataset. For GPT-4 experiments, sample code for API calls is provided in [`Models/GPT4_code.ipynb`](Models/GPT4_code.ipynb).
 
 ### Requirements
 transformers == 4.40.0
@@ -30,7 +30,7 @@ torch == 2.0.1+cu117
 
 accelerate == 0.30.0
 
-For data preprocessing (cleaning and get enrich demographic information), please see mental_health_sample_data_processing.ipynb.
+For data preprocessing (cleaning and get enrich demographic information), please see [`mental_health_sample_data_processing.ipynb`](./mental_health_sample_data_processing.ipynb).
 
 ## Datasets
 The following table provides an overview of the tasks and datasets in mental health analysis for our experiments.
